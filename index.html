@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Endangered Species</title>
+	
+	<meta name="description" content="Opis w Google" />
+	<meta name="keywords" content="endangered, species, animals, fundation, help" />
+	
+	<link rel="stylesheet" href="styles/main.css" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200,400&display=swap&subset=latin-ext" rel="stylesheet">
+
+	<link rel="stylesheet" href="styles/css/fontello.css" type="text/css"/>
+
+
+
+</head>
+
+<body>
+		<div class="wrapper">
+			<div class="header">
+
+					<div class="logo">
+						<a href="index.html" class="logolink">
+							<img src="images/koala.png" style="float: left;"/>
+							<span style="color: #88C442"> ENDANGERED</span> SPECIES.com
+							<div style="clear: both;"></div>
+						</a>
+					</div>
+			
+			</div>
+		 	
+
+
+	
+
+		<div class="nav">
+			<ol>
+				<li><a href="index.html"><i class="icon-home"></i></a></li>
+				<li><a href="sub1.html">Projects
+					<div class="navimage"><img width="30" height="40" src="images/small-fruit-tree-growing-on-earth.svg"></div>
+				</a>
+
+					<ul>
+						<li><a href="#">Current projects</a>
+						</li>
+						<li><a href="#">Priority projects</a></li>
+						<li><a href="#">Most endangered species</a></li>
+						
+					</ul>
+
+				</li>
+					
+				<li><a href="#">Resources
+					<div class="navimage"><img width="30" height="40" src="images/small-tree-on-ground.svg"></div>
+				</a></li>
+				<li><a href="#">Donations
+					<div class="navimage"><img width="30" height="40" src="images/tree.svg"></div>
+				</a></li>	
+				<li><a href="#">About Us
+					<div class="navimage"><img width="30" height="40" src="images/tree (1).svg"></div>
+				</a></li>	
+				<li><a href="#">Contact</a></li>	
+			</ol>
+		</div>
+
+		<div class="content">
+			<img src="images/forest1.png">
+
+				<div class="maincontent">
+					<h1>
+						<b><span style="color: #000000">RIGHT HERE <br/> AND</span>
+						NOW<span style="color: #000000">!</span>
+						</b>
+					</h1>
+
+				
+					<p>Integerin imperdiet dolor, ut interdum diam. Maecenas vel dolor consequat, vehicula libero et, aliquet sapien. Nullam et lectus in lacus tincidunt dignissim sed sed lacus. Ut imperdiet, massa et interdum consequat, odio urna tempor tortor, sed pharetra quam tellus at leo. </p>
+					<p>Nam vestibulum, dolor varius aliquam vehicula, magna massa convallis eros, aliquet dignissim justo leo quis arcu. Etiam at elit eu dui aliquet rutrum eget interdum ex. In ac ante rutrum, ultrices risus ut, scelerisque lectus. Pellentesque vitae gravida dolor. Cras non sem eu lacus lacinia scelerisque.</p>
+
+				</div>
+			
+				<div class="bub-1">
+					<img src="images/bub-1.png">
+					<div class="bub-1-text">
+						<b><h2>NAM VESTIBULUM</h2></b>
+					<p>Integerin imperdiet dolor, ut interdum diam.</p>
+					</div>
+
+				</div>
+
+				<div>
+				<a class="bub-2" href="/act-now"><h3>ACT<br/> <span>NOW!</h3></span></a>
+				</div>
+			
+			</img>
+		</div>
+
+		<div class="socials">
+			<div class="socialdivs">
+				<a href="https://www.facebook.com/" target="_blank">	
+					<div class="fb">
+						<i class="icon-facebook"></i>
+					
+					</div>
+				</a>
+
+				<a href="https://www.youtube.com/" target="_blank">
+					<div class="yt">
+						<i class="icon-youtube"></i>
+					</div>
+				</a>
+
+				<a href="https://www.twitter.com/" target="_blank">
+					<div class="tw">
+						<i class="icon-twitter"></i>
+					</div>
+				</a>
+				
+				<a href="https://plus.google.com/" target="_blank">
+					<div class="gplus">
+						<i class="icon-gplus"></i>
+					</div>
+				</a>	
+				<div style="clear: both;"></div>
+
+			</div>
+
+			<div class="footer">
+				Endagered-species.com &copy; 2020 All rights reserved
+			</div>
+		</div>
+
+
+
+	</div>	
+	<script src="scripts/jquery-3.4.1.min.js"> 
+	</script>
+
+	<script>
+
+		$(document).ready(function() {
+		var NavY = $('.nav').offset().top;
+		
+		var stickyNav = function(){
+		var ScrollY = $(window).scrollTop();
+			
+		if (ScrollY > NavY) { 
+			$('.nav').addClass('sticky');
+		} else {
+			$('.nav').removeClass('sticky'); 
+		}
+		};
+		
+		stickyNav();
+		
+		$(window).scroll(function() {
+			stickyNav();
+		});
+		});
+		
+	</script>
+
+</body>
+</html>
